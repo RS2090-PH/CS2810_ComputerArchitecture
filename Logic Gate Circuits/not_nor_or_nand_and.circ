@@ -240,77 +240,99 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,580)" to="(150,640)"/>
     <wire from="(550,700)" to="(560,700)"/>
     <wire from="(300,1200)" to="(370,1200)"/>
-    <comp lib="0" loc="(730,400)" name="Transistor">
+    <comp lib="0" loc="(780,240)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(190,830)" name="Transistor">
       <a name="type" val="n"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(100,340)" name="Ground"/>
-    <comp lib="0" loc="(70,660)" name="Pin">
+    <comp lib="6" loc="(304,113)" name="Text">
+      <a name="text" val="NOR Logic Gate"/>
+    </comp>
+    <comp lib="0" loc="(880,610)" name="Pin">
+      <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
+      <a name="label" val="3in"/>
+      <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(890,770)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(780,300)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(290,1210)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(820,740)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(820,820)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(480,920)" name="Ground"/>
-    <comp lib="6" loc="(161,524)" name="Text">
-      <a name="text" val="NAND Logic Gate"/>
+    <comp lib="0" loc="(290,1300)" name="Ground"/>
+    <comp lib="0" loc="(610,750)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="1out"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(770,780)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="C"/>
     </comp>
-    <comp lib="0" loc="(700,230)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(190,790)" name="Transistor">
+    <comp lib="0" loc="(820,780)" name="Transistor">
       <a name="type" val="n"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(100,210)" name="Transistor">
-      <a name="facing" val="south"/>
+    <comp lib="0" loc="(590,160)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(150,580)" name="Pin">
+    <comp lib="0" loc="(780,370)" name="Ground"/>
+    <comp lib="0" loc="(290,1210)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(360,1180)" name="Transistor">
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(190,900)" name="Ground"/>
+    <comp lib="6" loc="(227,1009)" name="Text">
+      <a name="text" val="Custom Double-NOT Inverter"/>
+    </comp>
+    <comp lib="0" loc="(70,660)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(820,610)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="1in"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(590,210)" name="Pin">
+    <comp lib="0" loc="(850,690)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(270,220)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(190,900)" name="Ground"/>
-    <comp lib="0" loc="(770,740)" name="Pin">
+    <comp lib="0" loc="(700,80)" name="Pin">
+      <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
+      <a name="label" val="Input"/>
+      <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(480,810)" name="Transistor">
+    <comp lib="0" loc="(230,750)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="1out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(820,740)" name="Transistor">
       <a name="type" val="n"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(580,720)" name="Transistor">
+    <comp lib="0" loc="(700,230)" name="Transistor">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="6" loc="(624,115)" name="Text">
-      <a name="text" val="OR Logic Gate"/>
+    <comp lib="0" loc="(580,780)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(190,790)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(310,1170)" name="Transistor">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(100,150)" name="Pin">
       <a name="facing" val="south"/>
@@ -318,22 +340,32 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Input"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(200,1200)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(300,1180)" name="Transistor"/>
-    <comp lib="0" loc="(130,240)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="1out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(764,542)" name="Text">
-      <a name="text" val="3bit AND Logic Gate"/>
-    </comp>
-    <comp lib="0" loc="(400,240)" name="Transistor">
+    <comp lib="0" loc="(150,580)" name="Pin">
       <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="1in"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(400,90)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(890,770)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(520,660)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(880,660)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(440,440)" name="Ground"/>
+    <comp lib="0" loc="(480,810)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(580,660)" name="Pin">
       <a name="facing" val="south"/>
@@ -345,124 +377,49 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="type" val="n"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(270,220)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
+    <comp lib="6" loc="(475,541)" name="Text">
+      <a name="text" val="AND Logic Gate"/>
     </comp>
-    <comp lib="0" loc="(440,310)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(670,470)" name="Ground"/>
-    <comp lib="0" loc="(780,240)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(360,310)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(440,700)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(580,850)" name="Ground"/>
-    <comp lib="0" loc="(40,240)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(820,780)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(360,440)" name="Ground"/>
-    <comp lib="0" loc="(270,170)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(820,610)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="1in"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="6" loc="(101,77)" name="Text">
-      <a name="text" val="NOT Logic Gate"/>
-    </comp>
-    <comp lib="0" loc="(230,640)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(920,760)" name="Pin">
+    <comp lib="0" loc="(820,270)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="1out"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(360,740)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="0" loc="(190,830)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(890,760)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(360,680)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(480,850)" name="Transistor">
-      <a name="type" val="n"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(310,1170)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(290,1300)" name="Ground"/>
     <comp lib="0" loc="(410,1180)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="1out"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(400,90)" name="Pin">
+    <comp lib="0" loc="(770,740)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(360,440)" name="Ground"/>
+    <comp lib="0" loc="(480,850)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(780,170)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Input"/>
-      <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(480,270)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="1out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(310,1070)" name="Pin">
+    <comp lib="0" loc="(150,680)" name="Transistor">
       <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(700,180)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(770,700)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="Input"/>
-      <a name="labelloc" val="north"/>
+      <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(230,580)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="2in"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(520,660)" name="Transistor">
+    <comp lib="0" loc="(580,720)" name="Transistor">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(830,880)" name="Ground"/>
-    <comp lib="0" loc="(440,600)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="1in"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(850,690)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(880,660)" name="Transistor">
+    <comp lib="0" loc="(670,470)" name="Ground"/>
+    <comp lib="0" loc="(440,700)" name="Transistor">
       <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(520,600)" name="Pin">
@@ -471,22 +428,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="2in"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(590,160)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(820,270)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="1out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(304,113)" name="Text">
-      <a name="text" val="NOR Logic Gate"/>
-    </comp>
-    <comp lib="0" loc="(670,340)" name="Transistor">
+    <comp lib="0" loc="(360,310)" name="Transistor">
       <a name="type" val="n"/>
       <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(360,740)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="6" loc="(764,542)" name="Text">
+      <a name="text" val="3bit AND Logic Gate"/>
+    </comp>
+    <comp lib="6" loc="(161,524)" name="Text">
+      <a name="text" val="NAND Logic Gate"/>
     </comp>
     <comp lib="0" loc="(850,610)" name="Pin">
       <a name="facing" val="south"/>
@@ -494,75 +448,121 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="2in"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(880,610)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="3in"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(150,680)" name="Transistor">
+    <comp lib="0" loc="(400,240)" name="Transistor">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="0" loc="(130,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="1out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(300,1180)" name="Transistor"/>
     <comp lib="0" loc="(70,720)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(230,750)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="1out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(227,1009)" name="Text">
-      <a name="text" val="Custom Opposition Inverter"/>
-    </comp>
-    <comp lib="0" loc="(730,470)" name="Ground"/>
-    <comp lib="0" loc="(400,190)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(580,780)" name="Transistor">
+    <comp lib="0" loc="(440,310)" name="Transistor">
       <a name="type" val="n"/>
       <a name="facing" val="north"/>
     </comp>
+    <comp lib="0" loc="(400,190)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(101,77)" name="Text">
+      <a name="text" val="NOT Logic Gate"/>
+    </comp>
+    <comp lib="0" loc="(40,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(230,640)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(100,210)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(830,880)" name="Ground"/>
+    <comp lib="0" loc="(670,340)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(730,470)" name="Ground"/>
     <comp lib="0" loc="(820,720)" name="Transistor">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(440,440)" name="Ground"/>
-    <comp lib="6" loc="(475,541)" name="Text">
-      <a name="text" val="AND Logic Gate"/>
+    <comp lib="0" loc="(230,580)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="2in"/>
+      <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(700,180)" name="Transistor">
+    <comp lib="0" loc="(200,1200)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="6" loc="(624,115)" name="Text">
+      <a name="text" val="OR Logic Gate"/>
+    </comp>
+    <comp lib="0" loc="(580,850)" name="Ground"/>
+    <comp lib="0" loc="(890,760)" name="Transistor">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(360,1180)" name="Transistor">
-      <a name="type" val="n"/>
+    <comp lib="0" loc="(480,920)" name="Ground"/>
+    <comp lib="0" loc="(590,210)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(610,750)" name="Pin">
+    <comp lib="0" loc="(270,170)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(730,400)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(820,820)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(310,1070)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(100,340)" name="Ground"/>
+    <comp lib="0" loc="(360,680)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(440,600)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="1in"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(780,300)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(920,760)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="1out"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(780,370)" name="Ground"/>
-    <comp lib="0" loc="(780,170)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
+    <comp lib="0" loc="(480,270)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="1out"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(890,720)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="3in"/>
       <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(700,80)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Input"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(770,700)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
     </comp>
   </circuit>
 </project>
