@@ -1,6 +1,10 @@
         .ORIG   x3000
         BR START
 
+
+
+
+
 OUTSTAT	.FILL xFE04			; label monitor status registry
 OUTREG	.FILL xFE06			; label monitor data registry
 STRING  .STRINGZ "Test String."
