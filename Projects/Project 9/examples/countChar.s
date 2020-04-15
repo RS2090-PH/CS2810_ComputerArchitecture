@@ -11,7 +11,7 @@ character:	.space 1
 count:		.space 2, '\n'
 string:		.space 78
 		.text
-_start:		MOV R0, #1			@ screen
+_start:	MOV R0, #1			@ screen
 		LDR R1, =prompt1		@ pointer
 		MOV R2, #prompt2-prompt1	@ maxsize
 		MOV R7, #4			@ write
@@ -40,15 +40,15 @@ _start:		MOV R0, #1			@ screen
 		LDR R1, =string			@set pointer
 		LDR R3, =character		@set base register to location of character
 		LDRB R3, [R3]			@retrieve search character
-Loop:		LDRB R2, [R1]			@retrieve next character from string
+Loop:	LDRB R2, [R1]			@retrieve next character from string
 		SUBS R4, R2, #10		@check for newline
 		BEQ Done			@if zero, branch to Done
 		SUBS R4, R2, R3			@compare with search character
-                BNE Skip			@if not zero, skip next instruction
+        BNE Skip			@if not zero, skip next instruction
 		ADD R0, R0, #1			@increment count
-Skip:		ADD R1, R1, #1			@increment pointer
+Skip:	ADD R1, R1, #1			@increment pointer
 		B Loop				@unconditional branch
-Done:		ADD R4, R0, #0x30		@convert count to ASCII
+Done:	ADD R4, R0, #0x30		@convert count to ASCII
 		LDR R0, =count			@set base register to addres of count
 		STRB R4, [R0]			@store at count
 
