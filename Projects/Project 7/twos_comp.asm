@@ -20,28 +20,54 @@ SAVER7  .FILL x0000
 
 
 
-SAVER1	.FILL x0000
-SAVER7  .FILL x0000
-ENHEX   .FILL xFF9B
-CkEncr	ST      R1, SAVER1
-		ST      R7, SAVER7
-
-
-		LD      R1, SAVER1
-		LD      R7, SAVER7
+EncHex  .FILL xFF9B
+CkEncr	LD 		R1, EncHex
+		Add 	R0, R0, R1
+		BRz     EncStr	
 		RET
 
-
-
-
-SAVER1	.FILL x0000
-SAVER7  .FILL x0000
-DECHEX  .FILL xFF9C
-CkDecr	ST      R1, SAVER1
-		ST      R7, SAVER7
-
-
-
-		LD      R1, SAVER1
-		LD      R7, SAVER7
+DecHex  .FILL xFF9C
+CkDecr	LD 		R1, DecHex
+		Add 	R0, R0, R1
+		BRz     DecStr	
 		RET
+		
+		
+		
+		
+EncStr	
+
+
+
+		RET
+
+DecStr
+
+
+
+		RET
+		
+		
+EndLn   .FILL x0A	
+AddLn	LD		R0, EndLn
+		OUT
+		RET
+		
+WelMes  .STRINGZ "Thank you for using the Symetric Message Encryption Tool."
+ASK     .STRINGZ "Do you want to Encrypt(e) or Decrypt(d)? "
+PrIntro	LD		R0, WelMes
+		OUT
+		LD		R0, ASK
+		OUT
+		RET
+		
+Select  .STRINGZ "Do you want to Encrypt(e) or Decrypt(d)? "
+GetOp	Ask	LD	R0, Select
+		OUT
+		RET
+		
+		
+EncPro
+
+
+DecPro
