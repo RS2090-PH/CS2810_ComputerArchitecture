@@ -38,7 +38,7 @@ _start:         push {R1,R2,R3,R4,R5,R6,R7,ip,lr}
                 mov  R7, #4
                 svc  #0
 
-                movs R0, #2
+                movs R0, #1
                 b    _startsqr
                 add  R0, R0, 0x030
                 ldr  R1, =value
@@ -46,7 +46,7 @@ _start:         push {R1,R2,R3,R4,R5,R6,R7,ip,lr}
                 mov  R7, #4
                 svc  #0
 
-                movs R0, #3
+                movs R0, #1
                 b    _startsqr
                 add  R0, R0, 0x030
                 ldr  R1, =value
@@ -54,7 +54,7 @@ _start:         push {R1,R2,R3,R4,R5,R6,R7,ip,lr}
                 mov  R7, #4
                 svc  #0
 
-                movs R0, #4
+                movs R0, #1
                 b    _startsqr
                 add  R0, R0, 0x030
                 ldr  R1, =value
@@ -62,7 +62,7 @@ _start:         push {R1,R2,R3,R4,R5,R6,R7,ip,lr}
                 mov  R7, #4
                 svc  #0
 
-                movs R0, #5
+                movs R0, #1
                 b    _startsqr
                 add  R0, R0, 0x030
                 ldr  R1, =value
